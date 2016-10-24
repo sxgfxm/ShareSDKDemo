@@ -15,6 +15,8 @@
 		A0305EFB1DBB027F002E4B07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0305EF91DBB027F002E4B07 /* LaunchScreen.storyboard */; };
 		A0305F061DBB027F002E4B07 /* SharSDKDemo3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0305F051DBB027F002E4B07 /* SharSDKDemo3Tests.m */; };
 		A0305F111DBB027F002E4B07 /* SharSDKDemo3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0305F101DBB027F002E4B07 /* SharSDKDemo3UITests.m */; };
+		A0305F1F1DBB1760002E4B07 /* junxi4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0305F1E1DBB1760002E4B07 /* junxi4.jpeg */; };
+		E1CDD441396483D4962D89CD /* Pods_SharSDKDemo3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EC2E699498DC10FAC82572 /* Pods_SharSDKDemo3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30551F7F89D6EF59967A433E /* Pods-SharSDKDemo3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharSDKDemo3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharSDKDemo3/Pods-SharSDKDemo3.debug.xcconfig"; sourceTree = "<group>"; };
+		97EC2E699498DC10FAC82572 /* Pods_SharSDKDemo3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharSDKDemo3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0305EE81DBB027F002E4B07 /* SharSDKDemo3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharSDKDemo3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0305EEC1DBB027F002E4B07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0305EEE1DBB027F002E4B07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,10 @@
 		A0305F0C1DBB027F002E4B07 /* SharSDKDemo3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharSDKDemo3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0305F101DBB027F002E4B07 /* SharSDKDemo3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharSDKDemo3UITests.m; sourceTree = "<group>"; };
 		A0305F121DBB027F002E4B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0305F1E1DBB1760002E4B07 /* junxi4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = junxi4.jpeg; sourceTree = "<group>"; };
+		A06141541DBDABDF00079FF5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		A06141551DBDABDF00079FF5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		DD7E1D213D65B1A7D72D1241 /* Pods-SharSDKDemo3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharSDKDemo3.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharSDKDemo3/Pods-SharSDKDemo3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CDD441396483D4962D89CD /* Pods_SharSDKDemo3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BAC452CB707CFD985163204 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30551F7F89D6EF59967A433E /* Pods-SharSDKDemo3.debug.xcconfig */,
+				DD7E1D213D65B1A7D72D1241 /* Pods-SharSDKDemo3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A0305EDF1DBB027F002E4B07 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +103,8 @@
 				A0305F041DBB027F002E4B07 /* SharSDKDemo3Tests */,
 				A0305F0F1DBB027F002E4B07 /* SharSDKDemo3UITests */,
 				A0305EE91DBB027F002E4B07 /* Products */,
+				0BAC452CB707CFD985163204 /* Pods */,
+				A45D30E98AFC3D3843185907 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +126,7 @@
 				A0305EF11DBB027F002E4B07 /* ViewController.h */,
 				A0305EF21DBB027F002E4B07 /* ViewController.m */,
 				A0305EF41DBB027F002E4B07 /* Main.storyboard */,
+				A0305F1E1DBB1760002E4B07 /* junxi4.jpeg */,
 				A0305EF71DBB027F002E4B07 /* Assets.xcassets */,
 				A0305EF91DBB027F002E4B07 /* LaunchScreen.storyboard */,
 				A0305EFC1DBB027F002E4B07 /* Info.plist */,
@@ -140,6 +161,14 @@
 			path = SharSDKDemo3UITests;
 			sourceTree = "<group>";
 		};
+		A45D30E98AFC3D3843185907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97EC2E699498DC10FAC82572 /* Pods_SharSDKDemo3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0305F151DBB027F002E4B07 /* Build configuration list for PBXNativeTarget "SharSDKDemo3" */;
 			buildPhases = (
+				F530D086621118CA6DAD0182 /* [CP] Check Pods Manifest.lock */,
 				A0305EE41DBB027F002E4B07 /* Sources */,
 				A0305EE51DBB027F002E4B07 /* Frameworks */,
 				A0305EE61DBB027F002E4B07 /* Resources */,
+				C66C1C2CAB0EA28E4949231F /* [CP] Embed Pods Frameworks */,
+				147E6B2437A7EAD40F928D93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +239,7 @@
 				TargetAttributes = {
 					A0305EE71DBB027F002E4B07 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P7D2R2T64D;
 						ProvisioningStyle = Automatic;
 					};
 					A0305F001DBB027F002E4B07 = {
@@ -247,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0305EFB1DBB027F002E4B07 /* LaunchScreen.storyboard in Resources */,
+				A0305F1F1DBB1760002E4B07 /* junxi4.jpeg in Resources */,
 				A0305EF81DBB027F002E4B07 /* Assets.xcassets in Resources */,
 				A0305EF61DBB027F002E4B07 /* Main.storyboard in Resources */,
 			);
@@ -267,6 +301,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		147E6B2437A7EAD40F928D93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SharSDKDemo3/Pods-SharSDKDemo3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C66C1C2CAB0EA28E4949231F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SharSDKDemo3/Pods-SharSDKDemo3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F530D086621118CA6DAD0182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0305EE41DBB027F002E4B07 /* Sources */ = {
@@ -315,6 +397,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0305EF51DBB027F002E4B07 /* Base */,
+				A06141541DBDABDF00079FF5 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -323,6 +406,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0305EFA1DBB027F002E4B07 /* Base */,
+				A06141551DBDABDF00079FF5 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -334,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -381,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -420,8 +506,10 @@
 		};
 		A0305F161DBB027F002E4B07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30551F7F89D6EF59967A433E /* Pods-SharSDKDemo3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7D2R2T64D;
 				INFOPLIST_FILE = SharSDKDemo3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobvoi.SharSDKDemo3;
@@ -431,8 +519,10 @@
 		};
 		A0305F171DBB027F002E4B07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7E1D213D65B1A7D72D1241 /* Pods-SharSDKDemo3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7D2R2T64D;
 				INFOPLIST_FILE = SharSDKDemo3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobvoi.SharSDKDemo3;
@@ -505,6 +595,7 @@
 				A0305F171DBB027F002E4B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0305F181DBB027F002E4B07 /* Build configuration list for PBXNativeTarget "SharSDKDemo3Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +604,7 @@
 				A0305F1A1DBB027F002E4B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0305F1B1DBB027F002E4B07 /* Build configuration list for PBXNativeTarget "SharSDKDemo3UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +613,7 @@
 				A0305F1D1DBB027F002E4B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
